@@ -78,7 +78,7 @@ class Login extends Component {
             value={username}
             className="form-input"
             id="username"
-            placeholder="Username"
+            placeholder="rahul"
             onChange={this.changeUsername}
           />
           <label htmlFor="password" className="form-label">
@@ -89,7 +89,7 @@ class Login extends Component {
             className="form-input"
             value={password}
             id="password"
-            placeholder="Password"
+            placeholder="rahul@2021"
             onChange={this.changePassword}
           />
           <button type="submit" className="login-button">

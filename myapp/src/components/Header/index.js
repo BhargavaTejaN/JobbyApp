@@ -10,12 +10,18 @@ const Header = props => {
     history.replace('/login')
   }
 
+  const onClickImage = () => {
+    const {history} = props
+    history.replace('/')
+  }
+
   return (
     <nav className="navbar-container">
       <img
         src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
         alt="website logo"
         className="website-logo-nav"
+        onClick={onClickImage}
       />
       <div className="nav-container">
         <div className="nav-links">
